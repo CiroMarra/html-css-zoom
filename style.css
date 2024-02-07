@@ -62,22 +62,30 @@
         
 
     }
+    .btn{
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
 
+    }
     .speakview {
         background-color: #4a4a4a;
         color: #fff;
-        padding: 6px;
+        padding: 2px;
         border-radius: 5px;
     }
 
     .spakview-maxemize{
         background-color: #4a4a4a;
         color: #fff;
-        padding: 6px;
+        padding: 2px;
         border-radius: 5px;
-        font-size: 14px;
-        text-align: center;
-        font-style: italic;
+      
+  
+       
 
     }
     
