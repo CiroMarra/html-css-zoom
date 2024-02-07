@@ -36,19 +36,54 @@
 /* ----GENERAL---- */
     .container {
 
-        max-width: 1200px;
+        width: calc(100vw - 40px);
         margin: auto;
 
     }
 
     body {
-        background-color: black;
+      background-color: black;
+    }
+
+
+    i {
+        color: #fff;
     }
 
 /* ----/GENERAL---- */
 
 
+/* ----HEADER---- */
+    .navbar {
+        justify-content: flex-end;
+        display: flex;
+        gap: 10px;
+        margin-top: 8px;
+        
 
+    }
+
+    .speakview {
+        background-color: #4a4a4a;
+        color: #fff;
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    .spakview-maxemize{
+        background-color: #4a4a4a;
+        color: #fff;
+        padding: 6px;
+        border-radius: 5px;
+        font-size: 14px;
+        text-align: center;
+        font-style: italic;
+
+    }
+    
+
+
+/*----/HEADER----*
 
 /*---- MAIN----*/
 
