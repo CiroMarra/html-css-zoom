@@ -35,8 +35,7 @@
 
 /* ----GENERAL---- */
     .container {
-
-        width: calc(100vw - 40px);
+        width: 100vw;
         margin: auto;
 
     }
@@ -94,11 +93,43 @@
 /*----/HEADER----*
 
 /*---- MAIN----*/
+    .main-view {
+        width: calc(100vw - 160px);
+        height: calc(100vh - 160px);
+        overflow-y: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 50px;
+    
+   
+        
+    }
 
+   
+
+    .box-view {
+        position: relative;
+        margin: 2px;
+      
+    }
+
+    .box-text {
+        position: absolute;
+        display: flex;
+        bottom: 10px;
+        left: 0px;
+    }
+
+   .mic-background{
+        background-color: #4a4a4a;
+        opacity: 0.5;
+   }
 /*---- /MAIN ----*/
 
 /* ----FOOTER---- */
 .nav-footer {
+    padding: 200px;
     background-color:#222222 ;
 }
 
